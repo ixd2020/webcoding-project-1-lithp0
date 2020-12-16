@@ -1,21 +1,83 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<ul class="topnav">
-  <li><a href="index.html" class="active" >Home</a></li>
-  <li><a href="gallery.html">Gallery</a></li>
-  <li><a href="impact.html">Impact</a></li>
-  <li><a href="life.html">Life</a></li>
-</ul>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
     <title>Hello!</title>
     
-    <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
     
-    <!-- import the webpage's javascript file -->
+   
     <script src="/script.js" defer></script>
+    
+    <!--icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>  
+  <body>
+
+<!--Navigation-->
+<nav>
+  <ul class="topnav">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="impact.html">Impact</a></li>
+    <button class="btn" onclick="myFunction()"><i class="fa fa-moon-o" aria-hidden="true"></i></button>
+  </ul>
+</nav>
+
+    
+    
+    <div class="galleryRow">
+  <div class="galleryColumn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monet_-_In_der_Barke.jpg/180px-Monet_-_In_der_Barke.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Monet_-_Zwei_M%C3%A4dchen_in_einem_Boot.jpg/800px-Monet_-_Zwei_M%C3%A4dchen_in_einem_Boot.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Les_bateaux_rouges.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Claude_Monet_047.jpg/1280px-Claude_Monet_047.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Monet_-_Das_Atelierboot.jpg/1024px-Monet_-_Das_Atelierboot.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Claude_Monet_021.jpg/180px-Claude_Monet_021.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Claude_Monet_016.jpg/1280px-Claude_Monet_016.jpg">
+  </div>
+  <div class="galleryColumn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Claude_Monet_008.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Claude_Monet_013.jpg/800px-Claude_Monet_013.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Rue_Montorgueil_with_Flags_by_Claude_Monet.jpg/800px-Rue_Montorgueil_with_Flags_by_Claude_Monet.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Monet_-_Garten_der_Infantin.jpg/800px-Monet_-_Garten_der_Infantin.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/The_House_on_the_River_Zaan_in_Zaandam.jpg/1280px-The_House_on_the_River_Zaan_in_Zaandam.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Monet_-_Das_blaue_Haus_in_Zaandam.jpg">
+  </div>
+  <div class="galleryColumn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Claude_Monet-Waterlilies.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/The_Water-Lily_Pond_1899_Claude_Monet_Metropolitan.jpg/800px-The_Water-Lily_Pond_1899_Claude_Monet_Metropolitan.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Water-Lily_Pond_1900_Claude_Monet_Boston_MFA.jpg/1024px-Water-Lily_Pond_1900_Claude_Monet_Boston_MFA.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/1920-22_Claude_Monet_The_Japanese_Footbridge_MOMA_NY_anagoria.JPG/1280px-1920-22_Claude_Monet_The_Japanese_Footbridge_MOMA_NY_anagoria.JPG">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Monet%2C_Claude_-_View_At_Rouelles%2C_Le_Havre_%281858%29.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Monet_-_Val_de_Falaise_%28Giverny%29_-_1885.jpg/1024px-Monet_-_Val_de_Falaise_%28Giverny%29_-_1885.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/The_Sunken_Road_in_the_Cliff_at_Varangeville_-_Monet.tif/lossy-page1-1024px-The_Sunken_Road_in_the_Cliff_at_Varangeville_-_Monet.tif.jpg">
+  </div>
+  <div class="galleryColumn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Claude_Monet_025.jpg/800px-Claude_Monet_025.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Monet_-_Monets_Garten_in_Giverny.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Monet%2C_Claude_-_Corner_of_the_Garden_at_Montgeron.jpg/1024px-Monet%2C_Claude_-_Corner_of_the_Garden_at_Montgeron.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Claude_Monet_-_Rouen_Cathedral_-_The_Portal_%28Sunlight%29.jpg/800px-Claude_Monet_-_Rouen_Cathedral_-_The_Portal_%28Sunlight%29.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Claude_Monet_024.jpg/800px-Claude_Monet_024.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Claude_Monet_023.jpg/800px-Claude_Monet_023.jpg">
+  </div>
+</div>
+    
+<!-- Footer -->
+<footer>
+  <div class="footer">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-flickr"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+  </div>
+</footer>
+    
+  </body>
 </html>
