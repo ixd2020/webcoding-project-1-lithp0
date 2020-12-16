@@ -20,6 +20,6 @@ function carousel() {
 }
 
 function myFunction() {
-  var element = document.body; document.paragraph;
+  var element = document.body;
   element.classList.toggle("dark-mode");
 }
